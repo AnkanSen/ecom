@@ -134,11 +134,11 @@ MESSAGE_TAGS={
 }
 
 EMAIL_HOST='smtp.gmail.com'
-EMAIL_HOST_USER='maharajankan2021@gmail.com'
-EMAIL_HOST_PASSWORD='eqicrdkijtjgzhjd'
+EMAIL_HOST_USER='youremail@gmail.com'
+EMAIL_HOST_PASSWORD='Your password'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 ENAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 
 MEDIA_ROOT=os.path.join(BASE_DIR,"media").replace('\\', '/')
-MEDIA_URL='/meida/'
+MEDIA_URL='/media/'
